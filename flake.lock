@@ -1,0 +1,28 @@
+{
+  "nodes": {
+    "cachix": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1603364695,
+        "narHash": "sha256-SFS0ejMW7uAHnEt+tJaFZoM0O87t04YEOlEYCO+Ek8w=",
+        "owner": "cachix",
+        "repo": "cachix",
+        "rev": "633e3f787bcb5055f20eda3b2f3b219124980c06",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cachix",
+        "ref": "master",
+        "repo": "cachix",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "cachix": "cachix"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
